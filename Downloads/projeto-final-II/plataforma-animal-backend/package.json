@@ -1,0 +1,27 @@
+{
+  "name": "plataforma-animal-backend",
+  "version": "1.0.0",
+  "description": "API REST da Plataforma Web Colaborativa para Gestão de Adoções e Apoio a Animais em Situação de Rua - Porto Alegre",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "vgi",
+    "porto-alegre"
+  ],
+  "author": "Luiz Louberty Martins dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "multer": "^2.5.0",
+    "mysql2": "^3.24.5"
+  }
+}
